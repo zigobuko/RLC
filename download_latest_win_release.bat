@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 :: Define GitHub repository
 set "owner=zigobuko"
-set "repo=RLC_test"
+set "repo=RLC"
 
 :: Create temp folder
 set "temp_dir=%TEMP%\myAppDownload_%RANDOM%"
@@ -69,3 +69,4 @@ rd /s /q "%temp_dir%"
 start "" cmd /c del "%~f0"
 
 exit /b
+

@@ -2,7 +2,7 @@
 
 # Define GitHub repository owner and name
 owner="zigobuko"
-repo="RLC_test"
+repo="RLC"
 pass=$1
 
 # Detect architecture (Silicon / Intel)
